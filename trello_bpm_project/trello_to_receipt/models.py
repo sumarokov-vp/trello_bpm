@@ -51,37 +51,6 @@ class TrelloBoard(models.Model):
         self.url = res['shortUrl']
         self.save()
 
-class CreatioReceipt(models.Model):
-    """ Describe SLReceipt entity in Creatio """
-    creatio_id = models.CharField(
-        verbose_name= 'Creatio Id',
-        max_length= 36,
-        null=True,
-    )
-
-    number = models.CharField(
-        max_length=20,
-        verbose_name='Number',
-        null=True,        
-    )
-
-    board = models.ForeignKey(
-        TrelloBoard,
-        on_delete= models.CASCADE,
-        null=True,
-    )
-
-    def send_to_creatio(self, creatio_connection):
-        # Создает запись Receipt в Creatio
-        self.creatio_id = creatio_connection.post_receipt(self.board.creatio_id)
-        return self.creatio_id
-    
-    def delete_from_creatio(self, creatio_connection):
-        creatio_connection.delete_receipt(self.creatio_id)
-    
-    def count_cards_in_creatio(self, creatio_connection):
-        return creatio_connection.receipt_tasks_count(self.creatio_id)
-
 class Executor(models.Model):
     """ Describe trello card members (trello users)"""
     name = models.CharField(
@@ -134,7 +103,7 @@ class TrelloList(models.Model):
     cards = []
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.board.name} - {self.name}'
     
     def update_from_trello(self):
         response = trello.lst(self.trello_id)
@@ -164,8 +133,9 @@ class TrelloList(models.Model):
 
             for member in response_card['idMembers']:
                 executor, _ = Executor.objects.get_or_create(trello_id= member)
-                if executor.name is None:
-                    executor.username, executor.full_name = trello.get_member_names(member)
+                if executor.name is None or executor.name == '':
+                    executor.name, executor.full_name = trello.get_member_names(member)
+                    executor.save()
 
                 ExecutorInCard.objects.update_or_create(
                     card= card,
@@ -178,11 +148,48 @@ class TrelloList(models.Model):
             _cards.append(card)
         self.cards = _cards
 
-    def send_cards_to_creatio(self, receipt: CreatioReceipt, creatio_connection: Creatio):
+    def send_cards_to_creatio(self, receipt, creatio_connection: Creatio):
         for card in self.cards:
             card.receipt = receipt
             card.save()
             card.send_to_creatio(creatio_connection)
+
+class CreatioReceipt(models.Model):
+    """ Describe SLReceipt entity in Creatio """
+    creatio_id = models.CharField(
+        verbose_name= 'Creatio Id',
+        max_length= 36,
+        null=True,
+    )
+
+    number = models.CharField(
+        max_length=20,
+        verbose_name='Number',
+        null=True,        
+    )
+
+    board = models.ForeignKey(
+        TrelloBoard,
+        on_delete= models.CASCADE,
+        null=True,
+    )
+
+    trello_list = models.ForeignKey(
+        TrelloList,
+        on_delete= models.CASCADE,
+        null=True,
+    )
+
+    def send_to_creatio(self, creatio_connection):
+        # Создает запись Receipt в Creatio
+        self.creatio_id = creatio_connection.post_receipt(self.board.creatio_id)
+        return self.creatio_id
+    
+    def delete_from_creatio(self, creatio_connection):
+        creatio_connection.delete_receipt(self.creatio_id)
+    
+    def count_cards_in_creatio(self, creatio_connection):
+        return creatio_connection.receipt_tasks_count(self.creatio_id)
 
 class TrelloCard(models.Model):
     """ Карточка в Трелло. В Creatio может представляться несколькими записями SLReceiptTask, в зависимости от количества исполнителей"""
@@ -246,7 +253,6 @@ class TrelloCard(models.Model):
                 minutes= record.minutes,
                 card_url= self.url
             )
-    
 
 class ExecutorInCard(models.Model):
     """ Дополнительное описание связи "Многие ко многим" TrelloCard - Executor, Необходима для указания часов и минут - времени исполнения"""

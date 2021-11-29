@@ -1,0 +1,4 @@
+<option value="">---------</option>
+{% for board in boards %}
+<option value="{{ board.pk }}">{{ board.name }}</option>
+{% endfor %}

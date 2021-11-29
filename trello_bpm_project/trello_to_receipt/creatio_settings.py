@@ -1,4 +1,6 @@
-CREATIO_URL = 'http://bpm.simplelogic.ru'
-CREATIO_LOGIN = 'Vova'
-CREATIO_PASSWORD = 'd9IziUjnU9Lw'
-ODATA_VERSION = "4"
+from os import environ
+
+CREATIO_URL = 'http://creatio.simplelogic.ru:5000'
+CREATIO_LOGIN = environ.get('CREATIOUSER') 
+CREATIO_PASSWORD = environ.get('CREATIOPASSWORD') 
+ODATA_VERSION = "4core"

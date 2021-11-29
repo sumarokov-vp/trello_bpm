@@ -40,3 +40,7 @@ class TrelloConnector():
         member_comments = [d for d in all_comments if d['idMemberCreator'] == member_id]
         member_comments.sort(key=lambda item:item['date'], reverse=True)
         return member_comments
+    
+    def get_member_boards(self, member_id):
+        url = f'{BASE_URL}/members/{member_id}/boards?key={KEY}&token={TOKEN}'
+        return requests.get(url).json()        

@@ -24,11 +24,15 @@
                 <div class="col-4 offset-2">
                     <form action="" method="POST">
                         {%csrf_token%}
-                        <table>
-                            {{ form.as_table }}
-                        </table>
+                        <select name="dd_trello_id" id="dd_list_id" required>
+                            <option disabled selected="true"> -- Select list -- </option>
+                            {% for list in lists %}
+                            <option value="{{list.trello_id}}">{{list.board.name}} {{list.name}}</option>
+                            {% endfor %}
+                        </select>
                         <input type="submit" name="send_button" value="Create" class="mt-2 btn btn-danger">
                     </form>
+
                 </div>
             </div> 
         </div>

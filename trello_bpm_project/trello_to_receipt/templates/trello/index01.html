@@ -24,11 +24,27 @@
                 <div class="col-4 offset-2">
                     <form action="" method="POST">
                         {%csrf_token%}
-                        <table>
-                            {{ form.as_table }}
-                        </table>
+                        <label for="Desk">Trello desk</label>
+                        <input type="text" id="desk" class="form-control" name="desk" placeholder="Desk">
                         <input type="submit" name="send_button" value="Create" class="mt-2 btn btn-danger">
                     </form>
+
+                </div>
+                <div class="col-4 offset-2">
+                    <h1>Info</h1>
+                    {{ cnt }}
+                    {% for card in cards %}
+                    <div class="alert alert-info">
+                        <div class="row">
+                            <div class="col-9">
+                                <b>Title: </b> {{ card.title }} <br>
+                                <b>Link: </b> {{ card.url }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+
                 </div>
             </div> 
         </div>

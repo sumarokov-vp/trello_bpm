@@ -70,6 +70,7 @@ class TestCreatio(TestCase):
         
         self.assertNotEquals(before, after)
     
+    @skip("Don't want to test")
     def test_hours_by_card(self):
         card_link = 'https://trello.com/c/VhtfvArZ'
         card = TrelloCard.objects.get(url= card_link)
@@ -81,7 +82,7 @@ class TestCreatio(TestCase):
         
         self.assertEquals(total_hours, 2)
 
-    @skip("Don't want to test")
+    #@skip("Don't want to test")
     def test_parse_hours(self):
 
         check, h, m = parse_hours('2:34')
@@ -162,3 +163,7 @@ class TestCreatio(TestCase):
         self.assertEquals(h, 6)
         self.assertEquals(m, 0)
     
+        check, h, m = parse_hours('готово\n15min')
+        self.assertEquals(check, True)
+        self.assertEquals(h, 0)
+        self.assertEquals(m, 15)

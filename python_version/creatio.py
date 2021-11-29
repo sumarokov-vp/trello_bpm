@@ -8,8 +8,7 @@ import requests
 
 SERVICE_LINKS = {
     '3': '/0/ServiceModel/EntityDataService.svc',
-    '4': '/0/odata',
-	'4core': '/odata'
+    '4': '/0/odata'
 }
 
 HEADERS_TEMPLATE = {
