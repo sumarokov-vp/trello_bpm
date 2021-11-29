@@ -1,0 +1,1285 @@
+[
+    {
+        "id": "5f84bd8cc199862eb750b728",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.661Z",
+        "desc": "- В лид на вкладку \"Кредитная история\" вниз добавить деталь \"ПКБ: ЕСП\", поля как в сущности на скриншоте: Признак плательщика, Период платежа, Сумма\n- в процесс KDNProcess добавить добавление этой информации (см скриншот) в деталь\n\nhttps://trello.com/c/P6E0ZhRJ",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 23,
+        "idAttachmentCover": "",
+        "idLabels": [],
+        "manualCoverAttachment": true,
+        "name": "Добавить деталь ПКБ: ЕСП",
+        "pos": 16384,
+        "shortLink": "Wgxw4oVo",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 7,
+            "attachments": 1,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "5696181264828a9f9d2cf9c2"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/Wgxw4oVo",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/Wgxw4oVo/23-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C-%D0%BF%D0%BA%D0%B1-%D0%B5%D1%81%D0%BF",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f9562b584a9c729c85b2e5e",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.605Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 41,
+        "idAttachmentCover": "",
+        "idLabels": [
+            "5f5dba6ecdabcf46c07dbc4a",
+            "5f5dba6ecdabcf46c07dbc4b"
+        ],
+        "manualCoverAttachment": true,
+        "name": "Отказ лида по открытым займам",
+        "pos": 32768,
+        "shortLink": "3PqVLCxv",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 11,
+            "attachments": 3,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6",
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [
+            {
+                "id": "5f5dba6ecdabcf46c07dbc4a",
+                "idBoard": "5f5dba6ee04757360cf0cab4",
+                "name": "",
+                "color": "green"
+            },
+            {
+                "id": "5f5dba6ecdabcf46c07dbc4b",
+                "idBoard": "5f5dba6ee04757360cf0cab4",
+                "name": "",
+                "color": "yellow"
+            }
+        ],
+        "shortUrl": "https://trello.com/c/3PqVLCxv",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/3PqVLCxv/41-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7-%D0%BB%D0%B8%D0%B4%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%B7%D0%B0%D0%B9%D0%BC%D0%B0%D0%BC",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f83fca463b0ac1b5e72e632",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.605Z",
+        "desc": "При квалификации, если у заемщика есть старая сделка в стадии \"Не выдана\" то займ создается в стадии **Архив**\n\nНужно найти процесс или код, который это делает\n\nЯ проверил процессы по сигналу лид  и займ, проверил код квалификации, долго искал в трелло но так и не смог найти. Похоже нужно дебажить.",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 16,
+        "idAttachmentCover": "",
+        "idLabels": [],
+        "manualCoverAttachment": true,
+        "name": "Найти где переводится сделка в архив",
+        "pos": 49152,
+        "shortLink": "VhtfvArZ",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 14,
+            "attachments": 2,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [
+            "5f9e7e0b9cea331ae43082e6"
+        ],
+        "idMembers": [
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/VhtfvArZ",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/VhtfvArZ/16-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-%D0%B3%D0%B4%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%81%D1%8F-%D1%81%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B2-%D0%B0%D1%80%D1%85%D0%B8%D0%B2",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f84ae52acfe0142a33dd23a",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.605Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 21,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Акшахана - ТГ группы: андеррайтеры, ПКБ:логи, Payment services monitoring, Kazinfotech logs. Полный аналог ИФР.",
+        "pos": 65536,
+        "shortLink": "mwH9JlvW",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 9,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/mwH9JlvW",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/mwH9JlvW/21-%D0%B0%D0%BA%D1%88%D0%B0%D1%85%D0%B0%D0%BD%D0%B0-%D1%82%D0%B3-%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B-%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%80%D1%8B-%D0%BF%D0%BA%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8-payment-services-monitoring-kazinfotech-logs-%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D0%B0%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3-%D0%B8%D1%84%D1%80",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f96756753aa608eef2bff63",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.654Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 42,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Ошибка БД 1с",
+        "pos": 81920,
+        "shortLink": "THGKrbeV",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": false,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 2,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "5976d339029816b3d14b55d5"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/THGKrbeV",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/THGKrbeV/42-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0-%D0%B1%D0%B4-1%D1%81",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5fa268ce741ec81018c63d7f",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.654Z",
+        "desc": "Средний ежемесячный доход - править для всех, остальные - смотреть андерайтеру",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 50,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Настройка прав на все поля задачи ПКБ",
+        "pos": 98304,
+        "shortLink": "jneCoutt",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 2,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/jneCoutt",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/jneCoutt/50-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D1%80%D0%B0%D0%B2-%D0%BD%D0%B0-%D0%B2%D1%81%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8F-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-%D0%BF%D0%BA%D0%B1",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f86df3d0c7db7555425aeff",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.653Z",
+        "desc": "\"Быстрофинанс\"\nПолностью скопировать БД и все приложение со всеми настройками\nПодключить https сертификаты\nswagger\n\n",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 28,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Создать инстанс для бэкенда",
+        "pos": 114688,
+        "shortLink": "09GPAt5w",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 8,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "5e395fc295e8e369562e9dbb"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/09GPAt5w",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/09GPAt5w/28-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%B8%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%81-%D0%B4%D0%BB%D1%8F-%D0%B1%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4%D0%B0",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f9c07252533f13e13155217",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.647Z",
+        "desc": "В справочник OurWallet ввести поле справочник - тип кассы\nВ справочнике создать три записи - Касса офиса, Безналичная касса, Temp\nВ представление UsrVwCash добавить поле UsrWalletTypeId с типом кассы",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 47,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Типы касс",
+        "pos": 131072,
+        "shortLink": "554Ildqm",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": false,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 5,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "571510f89aa3631c288f773d",
+            "5976d339029816b3d14b55d5"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/554Ildqm",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/554Ildqm/47-%D1%82%D0%B8%D0%BF%D1%8B-%D0%BA%D0%B0%D1%81%D1%81",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f968176a425a62a81815b36",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.645Z",
+        "desc": "https://www.ebay.com/itm/Windows-Server-2019-Standard-Datacenter-License-Download-Link/402510712752?hash=item5db7820fb0:g:hysAAOSw~Vhfk0F1",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 43,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Покупка Windows",
+        "pos": 147456,
+        "shortLink": "1MeVDnvS",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 2,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/1MeVDnvS",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/1MeVDnvS/43-%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D0%B0-windows",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f770719c6683b6d5df35d13",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T20:25:36.899Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 12,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Связать базы ИФР и ПКК через SVN",
+        "pos": 163840,
+        "shortLink": "uiRjcA7I",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 6,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/uiRjcA7I",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/uiRjcA7I/12-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D1%82%D1%8C-%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B8%D1%84%D1%80-%D0%B8-%D0%BF%D0%BA%D0%BA-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-svn",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f9337304883ae2f0100e63d",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.643Z",
+        "desc": "\nSupervisor\nNRHQzdEg",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 38,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Проблемы с быстродействием",
+        "pos": 180224,
+        "shortLink": "wzrfEYcI",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 3,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6",
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/wzrfEYcI",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/wzrfEYcI/38-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D1%81-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%D0%BC",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f89cf3edfb0e942c62d6bb8",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.637Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 32,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Адаптация MessageTemplateWorker",
+        "pos": 196608,
+        "shortLink": "hKdEjxXp",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 10,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/hKdEjxXp",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/hKdEjxXp/32-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B0%D1%86%D0%B8%D1%8F-messagetemplateworker",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5fa26aa67937f05656067007",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.634Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 51,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Тестирование ПКБ акшахана",
+        "pos": 212992,
+        "shortLink": "7yuuDUhv",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 4,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/7yuuDUhv",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/7yuuDUhv/51-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BA%D0%B1-%D0%B0%D0%BA%D1%88%D0%B0%D1%85%D0%B0%D0%BD%D0%B0",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f999de677c0a132f644d1b4",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.634Z",
+        "desc": "Службу и папки для оичетов",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 45,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Ftp сервер на новом сервере",
+        "pos": 229376,
+        "shortLink": "1tcAN93S",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 3,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/1tcAN93S",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/1tcAN93S/45-ftp-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D0%BE%D0%BC-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f84ae37180f0f68940146e1",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.632Z",
+        "desc": "Айнур Медеуова\n15:53 (27 минут назад)\nкому: я\n\nПодтверждение получения учетных данных\nЛичный кабинет https://isms.center/ru/app/auth\nЛогин: pervayakk\nПароль: BHQ6QBnwC\n\nИнтеграция\nСсылка на документацию http://docs.kazinfoteh.kz/\nТип интеграции: HTTP\nHTTP\nЛогин: pervayakk1\nПароль: BHQ6QBnwC\n\nJSON\nЛогин: pervayakk\nПароль: BHQ6QBnwC",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 20,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Акшахана - интеграция казинфотех",
+        "pos": 245760,
+        "shortLink": "WkRCK7bU",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 5,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/WkRCK7bU",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/WkRCK7bU/20-%D0%B0%D0%BA%D1%88%D0%B0%D1%85%D0%B0%D0%BD%D0%B0-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%B0%D0%B7%D0%B8%D0%BD%D1%84%D0%BE%D1%82%D0%B5%D1%85",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5fa16aa825f11508714e373a",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.624Z",
+        "desc": "Диас Несипханов, [3 нояб. 2020 г., 22:09:10]:\nНе удается создать запись выдачи денег\n\nОк вижу\n\nЧто вам нужно вернуть в этом случае? 10 - неверная стадия займа подойдет?\n\nАндрей Картушин, [3 нояб. 2020 г., 22:14:15 (3 нояб. 2020 г., 22:14:31)]:\nУ нас село РКО. Выданы 15000.\n\nДиас Несипханов, [3 нояб. 2020 г., 22:14:40]:\nДа , и еще скорее нужен статус типа выдано уже или нет\n\nГотово\n\n\"{\\\"code\\\":10,\\\"error\\\":\\\"Неверная стадия займа: Money has been sent\\\"}\"\n\nВот так будет\n\nВ Disbursement тоже добавил",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 49,
+        "idAttachmentCover": "",
+        "idLabels": [],
+        "manualCoverAttachment": true,
+        "name": "Добавил стадию в ответы казпочте",
+        "pos": 262144,
+        "shortLink": "cD1OmHZJ",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 2,
+            "attachments": 1,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/cD1OmHZJ",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/cD1OmHZJ/49-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D0%BB-%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D1%8E-%D0%B2-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B-%D0%BA%D0%B0%D0%B7%D0%BF%D0%BE%D1%87%D1%82%D0%B5",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f953a8ee65c2b2c40ef5509",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.622Z",
+        "desc": "https://trello.com/c/VPBkz2qZ\n\nhttps://bpm.bistrofinance.kz:5443/0/Nui/ViewModule.aspx#CardModuleV2/OpportunityPageV2/edit/8cffe97f-a337-4a1d-a633-c53ed09dc9e6\n\nАндрей: Ну да. Тут разница между созданием сделки и выдачей 3 дня. В сумме к оплате не хватате тоже 3х дней.",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 39,
+        "idAttachmentCover": null,
+        "idLabels": [
+            "5f5dba6ecdabcf46c07dbc4f",
+            "5f5dba6ecdabcf46c07dbc52"
+        ],
+        "manualCoverAttachment": false,
+        "name": "Ошибка в задаче",
+        "pos": 278528,
+        "shortLink": "jqHV9AZH",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": false,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 2,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [
+            {
+                "id": "5f5dba6ecdabcf46c07dbc4f",
+                "idBoard": "5f5dba6ee04757360cf0cab4",
+                "name": "Приоритет 1",
+                "color": "red"
+            },
+            {
+                "id": "5f5dba6ecdabcf46c07dbc52",
+                "idBoard": "5f5dba6ee04757360cf0cab4",
+                "name": "Ошибка",
+                "color": "purple"
+            }
+        ],
+        "shortUrl": "https://trello.com/c/jqHV9AZH",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/jqHV9AZH/39-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0-%D0%B2-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B5",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f770778e266ce45e72c89db",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.622Z",
+        "desc": "В лид на первую страницу под зарплатой добавить поле «Средний ежемесячный иной доход заёмщика за последние 6 месяцев» (OtherIncome)\n\nДобавить валидацию перед отправкой на проверку по этому полю\n\nBranch - General - Settings добавить поле «Максимальное значение иного дохода заёмщика» (MaxOtherIncome)\n\nKdnProcess (Лид. Получение ПКБ и АСП) (процесса нет в библиотеке, открывать из конфигурации)\nИзменить расчет КДН\n\n```\nКДН = (debt + 1,3 * Lead.UsrMoneyAmount) / (income + OtherIncome)\n```\n\ndebt, income - поля из веб-сервиса КДН\n\n```\nЕсли КДН больше или равен 0,5, то считаем \nOtherIncome*=(debt+1,З*Lead.UsrMoneyAmount)/0,49 - income\n(округлять до 3 нулей в большую сторону: 304567 => 305000)\n\nЕсли OtherIncome* > MaxOtherIncome, то ApprovedAmount = 42500\n\nЕсли OtherIncome* <= MaxOtherIncome, то:(\n                  Lead.OtherIncome =  OtherIncome*\n                   пересчитать и перезаписать новое значение КДН с учетом изменения OtherIncome\n                  Если метод платежа равен «Наличные», то: Lead.Stage = \n                    \"Корректировка\",  В ленте лида (над чем вы сейчас работаете) \n                    вставить сообщение: «Подпишите заявление».\n)\n```",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 13,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Корректировать расчет КДН",
+        "pos": 294912,
+        "shortLink": "EIQ1psFJ",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 6,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "571510f89aa3631c288f773d"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/EIQ1psFJ",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/EIQ1psFJ/13-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82-%D0%BA%D0%B4%D0%BD",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f892984aa68be1661626351",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.620Z",
+        "desc": "1 Вот ссылка для тестирования для подачи на терминалы: http://old.qiwi.kz/ru/provider-test/ Потом скан успешного теста скиньте для проверки нашим ДИТом.\n2. Это протокол взаимодействия : http://qiwi.kz/data/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.pdf .\n\nhttps://trello.com/c/IdVrQvZV",
+        "descData": {
+            "emoji": {}
+        },
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 30,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Тестирование qiwi",
+        "pos": 311296,
+        "shortLink": "iBQzMXzz",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 5,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/iBQzMXzz",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/iBQzMXzz/30-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-qiwi",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    },
+    {
+        "id": "5f97ab4ef683bc2a1e32128f",
+        "checkItemStates": null,
+        "closed": false,
+        "dateLastActivity": "2020-11-21T16:39:30.609Z",
+        "desc": "",
+        "descData": null,
+        "dueReminder": null,
+        "idBoard": "5f5dba6ee04757360cf0cab4",
+        "idList": "5f5dba9e4abe021b0a4c619e",
+        "idMembersVoted": [],
+        "idShort": 44,
+        "idAttachmentCover": null,
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Настройка логирования запросов Казпочты.",
+        "pos": 327680,
+        "shortLink": "oyaFSs7S",
+        "isTemplate": false,
+        "cardRole": null,
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 5,
+            "attachments": 0,
+            "description": false,
+            "due": null,
+            "dueComplete": false,
+            "start": null
+        },
+        "dueComplete": false,
+        "due": null,
+        "idChecklists": [],
+        "idMembers": [
+            "566321cb9e1906e6e6a0bbc6"
+        ],
+        "labels": [],
+        "shortUrl": "https://trello.com/c/oyaFSs7S",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/oyaFSs7S/44-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BB%D0%BE%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-%D0%BA%D0%B0%D0%B7%D0%BF%D0%BE%D1%87%D1%82%D1%8B",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "light"
+        }
+    }
+]
