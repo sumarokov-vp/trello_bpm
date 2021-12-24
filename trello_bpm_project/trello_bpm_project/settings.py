@@ -10,9 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
+import vars
 
 from pathlib import Path
 from os import environ
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -87,15 +89,15 @@ WSGI_APPLICATION = 'trello_bpm_project.wsgi.application'
 #     }
 # }
 
-user = environ.get('PGUSER') 
-password = environ.get('PGPASSWORD')
+# user = environ.get('PGUSER') 
+# password = environ.get('PGPASSWORD')
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'trello_creatio', 
-        'USER': user, 
-        'PASSWORD': password,
+        'USER': vars.postgre_user, 
+        'PASSWORD': vars.postgre_password,
         'HOST': 'postgre.simplelogic.ru', 
         'PORT': '5432',
     }
