@@ -21,6 +21,8 @@ def parse_hours(s: str):
             check, hours, minutes = is_hours_digit(a)
             if check:
                 return True, hours, minutes
+            else:
+                return is_divided_format(a)
 
         elif b in minute_set and a.isdigit():
             return True, 0, int(a)
@@ -50,6 +52,17 @@ def parse_hours(s: str):
 
         except ValueError:
             return False, 0, 0
+
+    def is_divided_format(s: str):
+        d_position = s.find(':')
+        part_1 = s[:d_position]
+        part_2 = s[d_position+1:]
+        check, h, x = is_hours_digit(part_1)
+        if check:
+            check, x, m = is_minutes_digit(part_2)
+            if check: return True, h, m
+            else: return False, 0, 0
+        else: return False, 0, 0
 
     hour_set = ['ч','час','h','hr','hrs','hours', 'часа', 'часов']
     minute_set = ['min', 'minute', 'minutes', 'мин', 'минута', 'минут']
@@ -106,4 +119,20 @@ def parse_hours(s: str):
     
     return False, 0, 0
 
+hour_set = ['ч','час','h','hr','hrs','hours', 'часа', 'часов']
+minute_set = ['min', 'minute', 'minutes', 'мин', 'минута', 'минут']
+total_set = ['total', 'всего', 'итого']
+def check_pair_test(a, b):
+    if b in hour_set:
+        check, hours, minutes = is_hours_digit(a)
+        if check:
+            return True, hours, minutes
+
+    elif b in minute_set and a.isdigit():
+        return True, 0, int(a)
+
+    else:
+        return False, 0, 0
     
+if __name__ == '__main__':
+    check_pair_test('0:45','h')
